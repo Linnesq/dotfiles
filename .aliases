@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# GIT
+
+alias gs='git s'
+alias gss='git status'
+
+alias gc='git cm'
+
+alias gp='git push'
+alias gpl='git pull'
+
+alias grim='git rebase -i master'
+alias grm='git rebase master'
+
+alias gcl='git config --list'
+alias gcll='git config --list --show-origin'
+
+# Others
+
+alias epoch='date +%s'
+alias public-ip='echo `curl -s http://whatismyip.akamai.com/`'
+alias bash-edit="nano ~/.bash_profile"
+alias bash-reload="source ~/.bash_profile"

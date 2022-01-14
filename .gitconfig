@@ -1,0 +1,21 @@
+[color]
+	ui = true
+[push]
+	default = simple
+[pull]
+	rebase = false
+[alias]
+	s = status -sb
+	cm = commit -m
+	co = checkout
+	con = checkout -b
+	fresh = reset --hard
+	ap = add . --patch
+
+[core]
+	editor = nano -w
+
+# for private info like user.email
+
+[include]
+	path=~/.gitlocal
